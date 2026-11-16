@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVault_neo",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://practice-scope.vault.azure.net/"
+		}
+	}
+}

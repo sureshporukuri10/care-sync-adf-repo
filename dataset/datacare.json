@@ -1,0 +1,16 @@
+{
+	"name": "datacare",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "neodb1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "PostgreSqlV2Table",
+		"schema": [],
+		"typeProperties": {
+			"schema": "public",
+			"table": "hospitals"
+		}
+	}
+}

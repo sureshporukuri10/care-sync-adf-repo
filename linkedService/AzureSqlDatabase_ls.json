@@ -1,0 +1,24 @@
+{
+	"name": "AzureSqlDatabase_ls",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "caresync-su.database.windows.net",
+			"database": "free",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "suresh",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault_neo",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "azure-db",
+				"secretVersion": "ba7e7fe38ea046d4a668169d74c435c6"
+			}
+		}
+	}
+}
